@@ -18,11 +18,11 @@
 ## circuit diagram 
 ![](https://user-images.githubusercontent.com/95710924/153770168-8d2d390e-2e3d-4d3a-95f7-34660651d5c1.png)
 ## code
-``` int ledPin=5;  //defining ledpin as pin 5
+``` 
+int ledPin=5;  //defining ledpin as pin 5
 void setup() {
    pinMode(5,OUTPUT); //define pin5 as output type: 
 }
-
 void loop() {
   digitalWrite(ledPin,HIGH);//setting pin to on position
   delay(1000); //delay of 1 second
