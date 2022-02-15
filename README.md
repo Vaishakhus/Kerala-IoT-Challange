@@ -88,6 +88,6 @@ In Traffic light, the green LED blink about 5 second, then it is turnoff. Then t
 * Breadboard
 * wires
 ## circuit diagram
-
+![ex 3](https://user-images.githubusercontent.com/95710924/154127155-acbd4c07-0b9a-4f9e-af69-f8a1c18b7366.png)
 
 
