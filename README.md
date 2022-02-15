@@ -186,6 +186,17 @@ else
 ## output
 LED is controlled by switch
 
+# EXPERIMENT 5 BUZZER AND ARDUINO
+## COMPONENTS REQUIRED
+* Arduino UNO
+* A Breadboard
+* Male to male jumper wires (x2)
+* A Buzzer
+* USB cable to connect the arduino
+## Circuit Diagram
+
+
+
 
 
 
