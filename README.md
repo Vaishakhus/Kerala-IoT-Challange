@@ -148,6 +148,7 @@ all LEDs will blink in sequence and after that all will switchon and off same ti
 * Breadboard
 * Jumper Wire
 ## Circuit Diagram
+![ex4](https://user-images.githubusercontent.com/95710924/154128846-573a3c11-3c98-4471-9621-e7bf014ca1d9.png)
 
 
 
