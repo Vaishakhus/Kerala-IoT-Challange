@@ -194,9 +194,23 @@ LED is controlled by switch
 * A Buzzer
 * USB cable to connect the arduino
 ## Circuit Diagram
+![ex 5](https://user-images.githubusercontent.com/95710924/154130482-0cd4a854-fb5f-4885-bad4-750189adcc1e.png)
+## code
+```
+int buzzer=8;// initialize digital IO pin that controls the buzzer
 
+void setup() 
 
-
+{ 
+  pinMode(buzzer,OUTPUT);// set pin mode as “output”
+} 
+void loop() 
+{
+digitalWrite(buzzer, HIGH); // produce sound
+}
+```
+## output
+buzzer started working
 
 
 
