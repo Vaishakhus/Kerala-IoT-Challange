@@ -32,3 +32,15 @@ void loop() {
   
 
 }
+```
+
+# Experiment-2  TRAFFIC LIGHT
+## COMPONENTS REQUIRED
+* Arduino UNO
+* A Breadboard
+* Male to male jumper wires (x4)
+* LED (Red,Yellow,Green)
+* USB cable to connect the arduino
+* Resistors (3x)
+## Circuit Diagram
+![](https://user-images.githubusercontent.com/95710924/153770168-8d2d390e-2e3d-4d3a-95f7-34660651d5c1.png)
