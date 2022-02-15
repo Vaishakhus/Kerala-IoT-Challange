@@ -89,5 +89,66 @@ In Traffic light, the green LED blink about 5 second, then it is turnoff. Then t
 * wires
 ## circuit diagram
 ![ex 3](https://user-images.githubusercontent.com/95710924/154127155-acbd4c07-0b9a-4f9e-af69-f8a1c18b7366.png)
+## code
+```
+int BASE = 2;  // the I/O pin for the first LED
+
+int NUM = 6;   // number of LEDs
+
+void setup()
+
+{
+
+   for (int i = BASE; i < BASE + NUM; i++) 
+   
+   {
+   
+     pinMode(i, OUTPUT);   // set I/O pins as output
+     
+   }
+   
+}
+
+void loop()
+
+{
+
+   for (int i = BASE; i < BASE + NUM; i++) 
+   
+   {
+   
+     digitalWrite(i, LOW);    // set I/O pins as “low”, turn off LEDs one by one.
+     
+     delay(200);        // delay
+     
+   }
+   
+   for (int i = BASE; i < BASE + NUM; i++) 
+   
+   {
+   
+     digitalWrite(i, HIGH);    // set I/O pins as “high”, turn on LEDs one by one
+     
+     delay(200);        // delay
+     
+   }  
+   
+}
+```
+## output 
+all LEDs will blink in sequence and after that all will switchon and off same time\
+
+# EXPERIMENT 4 BUTTON CONTROLLED LED
+## COMPONENTS REQUIRED
+* Arduino Uno
+* Button switch
+* Red M5 LED
+* 220ΩResistor
+* 10KΩ Resistor
+* Breadboard
+* Jumper Wire
+## Circuit Diagram
+
+
 
 
