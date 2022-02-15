@@ -33,6 +33,8 @@ void loop() {
 
 }
 ```
+## output 
+LED will blink every second
 
 # Experiment-2  TRAFFIC LIGHT
 ## COMPONENTS REQUIRED
@@ -74,5 +76,10 @@ delay(5000);// wait 5 seconds
 digitalWrite(redled, LOW);// turn off red LED
 }
 ```
+## output 
+In Traffic light, the green LED blink about 5 second, then it is turnoff. Then the yellow LED blinks 3 times with a time interval of 0.5 second.Then the red LED blink about 5 seconds
+
+
+
 
 
