@@ -80,6 +80,14 @@ digitalWrite(redled, LOW);// turn off red LED
 In Traffic light, the green LED blink about 5 second, then it is turnoff. Then the yellow LED blinks 3 times with a time interval of 0.5 second.Then the red LED blink about 5 seconds
 
 
+# EXPERIMENT 3  LED CHASING EFFECT
+## components required 
+* Led x6
+* Arduino board
+* 220Ω resistor x6
+* Breadboard
+* wires
+## circuit diagram
 
 
 
